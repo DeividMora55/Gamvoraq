@@ -1,0 +1,33 @@
+{
+  "id": "./",
+  "name": "Gamvoraq",
+  "short_name": "Gamvoraq",
+  "description": "Comunidad gamer para encontrar jugadores, formar equipos y explorar comunidades de videojuegos.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#050505",
+  "theme_color": "#00A8FF",
+  "orientation": "any",
+  "lang": "es-MX",
+  "icons": [
+    {
+      "src": "assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

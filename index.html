@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050505">
+  <meta name="description" content="Gamvoraq, una comunidad gamer para encontrar jugadores, formar equipos y descubrir comunidades.">
+  <title>Gamvoraq | Conecta. Juega. Haz equipo.</title>
+
+  <link rel="icon" href="assets/img/logo-gamvoraq.png">
+  <link rel="apple-touch-icon" href="assets/icons/icon-192.png">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="#inicio">
+      <img src="assets/img/logo-gamvoraq.png" alt="Logo de Gamvoraq">
+      <div class="brand-copy">
+        <strong>GAMVORAQ</strong>
+        <small>Conecta. Juega. Haz equipo.</small>
+      </div>
+    </a>
+
+    <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+
+    <nav class="nav-menu">
+      <a href="#inicio">Inicio</a>
+      <a href="#comunidades">Comunidades</a>
+      <a href="#funciones">Funciones</a>
+      <a href="#video">Video</a>
+      <a href="#como-funciona">Cómo funciona</a>
+    </nav>
+
+    <a class="nav-cta" href="#comunidades">Explorar</a>
+  </div>
+</header>
+
+<main>
+
+<section class="hero" id="inicio">
+  <div class="container hero-grid">
+    <div class="hero-copy reveal">
+      <span class="kicker"><i class="fa-solid fa-bolt"></i> Comunidad gamer especializada</span>
+      <h1>JUEGA CON GENTE QUE <span>SÍ ENCAJA CONTIGO</span></h1>
+      <p>
+        Gamvoraq reúne comunidades, perfiles y publicaciones para ayudarte
+        a encontrar jugadores con gustos, horarios y plataformas similares.
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn primary" href="#comunidades">
+          <i class="fa-solid fa-gamepad"></i>
+          Explorar comunidades
+        </a>
+        <a class="btn secondary" href="#video">
+          <i class="fa-solid fa-circle-play"></i>
+          Ver presentación
+        </a>
+        <button class="btn primary install-app-button" id="installAppButton" type="button" hidden>
+          <i class="fa-solid fa-download"></i>
+          Instalar aplicación
+        </button>
+      </div>
+
+      <div class="metrics">
+        <article class="metric">
+          <strong data-counter="120">0</strong>
+          <span>jugadores</span>
+        </article>
+        <article class="metric">
+          <strong data-counter="48">0</strong>
+          <span>publicaciones</span>
+        </article>
+        <article class="metric">
+          <strong data-counter="8">0</strong>
+          <span>comunidades</span>
+        </article>
+      </div>
+    </div>
+
+    <div class="hero-terminal reveal">
+      <div class="terminal-top">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+
+      <div class="terminal-body">
+        <div class="terminal-logo">
+          <img src="assets/img/logo-gamvoraq.png" alt="Gamvoraq">
+        </div>
+
+        <span class="terminal-label">MATCHMAKING SOCIAL</span>
+        <h2>Tu juego. Tu horario. Tu squad.</h2>
+        <p>Encuentra personas con quienes realmente quieras jugar.</p>
+
+        <div class="line blue"></div>
+        <div class="line medium"></div>
+        <div class="line short"></div>
+      </div>
+
+      <div class="floating-chip chip-one">
+        <i class="fa-solid fa-headset"></i>
+        Squad encontrado
+      </div>
+
+      <div class="floating-chip chip-two">
+        <i class="fa-solid fa-message"></i>
+        Nuevo mensaje
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="activity-bar" aria-label="Actividad reciente">
+  <div class="activity-track">
+    <span><i class="fa-solid fa-circle"></i> ShadowMX · Valorant · Busco dúo para competitivo</span>
+    <span><i class="fa-solid fa-circle"></i> LunaByte · Fortnite · Battle Royale casual</span>
+    <span><i class="fa-solid fa-circle"></i> PixelNeko · Minecraft · Survival con equipo</span>
+    <span><i class="fa-solid fa-circle"></i> DrakeRL · Rocket League · Dúo para rankeds</span>
+    <span><i class="fa-solid fa-circle"></i> ShadowMX · Valorant · Busco dúo para competitivo</span>
+    <span><i class="fa-solid fa-circle"></i> LunaByte · Fortnite · Battle Royale casual</span>
+    <span><i class="fa-solid fa-circle"></i> PixelNeko · Minecraft · Survival con equipo</span>
+    <span><i class="fa-solid fa-circle"></i> DrakeRL · Rocket League · Dúo para rankeds</span>
+  </div>
+</section>
+
+<section class="section" id="comunidades">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <span class="eyebrow">COMUNIDADES POPULARES</span>
+        <h2>Descubre dónde está jugando la comunidad</h2>
+        <p>Explora algunos de los videojuegos que pueden formar parte de Gamvoraq.</p>
+      </div>
+
+      <div class="scroll-buttons">
+        <button class="scroll-btn" data-scroll="left" aria-label="Mover a la izquierda">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <button class="scroll-btn" data-scroll="right" aria-label="Mover a la derecha">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+      </div>
+    </div>
+
+    <div class="game-scroller" id="gameScroller">
+      <article class="game-card reveal">
+        <div class="game-image">
+          <img src="assets/img/games/valorant.png" alt="Valorant">
+          <h3>Valorant</h3>
+        </div>
+        <div class="game-info">
+          <p>FPS táctico competitivo por equipos.</p>
+          <span><i class="fa-solid fa-bullhorn"></i> 12 publicaciones</span>
+        </div>
+      </article>
+
+      <article class="game-card reveal">
+        <div class="game-image">
+          <img src="assets/img/games/minecraft.png" alt="Minecraft">
+          <h3>Minecraft</h3>
+        </div>
+        <div class="game-info">
+          <p>Construcción, supervivencia y aventuras.</p>
+          <span><i class="fa-solid fa-bullhorn"></i> 9 publicaciones</span>
+        </div>
+      </article>
+
+      <article class="game-card reveal">
+        <div class="game-image">
+          <img src="assets/img/games/fortnite.png" alt="Fortnite">
+          <h3>Fortnite</h3>
+        </div>
+        <div class="game-info">
+          <p>Battle Royale, creativo y partidas casuales.</p>
+          <span><i class="fa-solid fa-bullhorn"></i> 10 publicaciones</span>
+        </div>
+      </article>
+
+      <article class="game-card reveal">
+        <div class="game-image">
+          <img src="assets/img/games/call-of-duty.png" alt="Call of Duty">
+          <h3>Call of Duty</h3>
+        </div>
+        <div class="game-info">
+          <p>Warzone, multijugador y modos competitivos.</p>
+          <span><i class="fa-solid fa-bullhorn"></i> 7 publicaciones</span>
+        </div>
+      </article>
+
+      <article class="game-card reveal">
+        <div class="game-image">
+          <img src="assets/img/games/apex-legends.png" alt="Apex Legends">
+          <h3>Apex Legends</h3>
+        </div>
+        <div class="game-info">
+          <p>Battle Royale de escuadrones.</p>
+          <span><i class="fa-solid fa-bullhorn"></i> 6 publicaciones</span>
+        </div>
+      </article>
+
+      <article class="game-card reveal">
+        <div class="game-image">
+          <img src="assets/img/games/rocket-league.png" alt="Rocket League">
+          <h3>Rocket League</h3>
+        </div>
+        <div class="game-info">
+          <p>Competitivo, casual y partidas por equipos.</p>
+          <span><i class="fa-solid fa-bullhorn"></i> 8 publicaciones</span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="funciones">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <span class="eyebrow">FUNCIONES</span>
+        <h2>Todo lo importante en un solo lugar</h2>
+        <p>Gamvoraq está pensado para que la experiencia de buscar jugadores sea más clara.</p>
+      </div>
+    </div>
+
+    <div class="feature-grid">
+      <article class="feature-card reveal">
+        <div class="feature-icon"><i class="fa-solid fa-user-group"></i></div>
+        <h3>Perfiles de jugador</h3>
+        <p>Región, plataforma, horario y una breve descripción.</p>
+      </article>
+
+      <article class="feature-card reveal">
+        <div class="feature-icon"><i class="fa-solid fa-bullhorn"></i></div>
+        <h3>Publicaciones</h3>
+        <p>Encuentra compañeros especificando lo que buscas.</p>
+      </article>
+
+      <article class="feature-card reveal">
+        <div class="feature-icon"><i class="fa-solid fa-filter"></i></div>
+        <h3>Filtros</h3>
+        <p>Reduce el contenido para encontrar personas compatibles.</p>
+      </article>
+
+      <article class="feature-card reveal">
+        <div class="feature-icon"><i class="fa-solid fa-comments"></i></div>
+        <h3>Mensajería</h3>
+        <p>Organiza partidas sin salir de la plataforma.</p>
+      </article>
+
+      <article class="feature-card reveal">
+        <div class="feature-icon"><i class="fa-solid fa-layer-group"></i></div>
+        <h3>Comunidades</h3>
+        <p>Cada videojuego tiene su propio espacio.</p>
+      </article>
+
+      <article class="feature-card reveal">
+        <div class="feature-icon"><i class="fa-solid fa-shield-halved"></i></div>
+        <h3>Seguridad</h3>
+        <p>Herramientas de reporte y control de la comunidad.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="video">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <span class="eyebrow">VIDEO</span>
+        <h2>Conoce Gamvoraq</h2>
+        <p>Una presentación visual del concepto y la experiencia de la plataforma.</p>
+      </div>
+    </div>
+
+    <div class="video-frame reveal">
+      <video controls preload="metadata" poster="assets/img/logo-gamvoraq.png">
+        <source src="assets/video/gamvoraq-presentacion.mp4" type="video/mp4">
+        Tu navegador no puede reproducir el video.
+      </video>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="como-funciona">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <span class="eyebrow">CÓMO FUNCIONA</span>
+        <h2>Entrar, encontrar y jugar</h2>
+      </div>
+    </div>
+
+    <div class="steps">
+      <article class="step reveal">
+        <span>01</span>
+        <h3>Crea tu perfil</h3>
+        <p>Agrega la información básica sobre cómo y cuándo juegas.</p>
+      </article>
+
+      <article class="step reveal">
+        <span>02</span>
+        <h3>Explora comunidades</h3>
+        <p>Busca el videojuego que te interesa y revisa sus publicaciones.</p>
+      </article>
+
+      <article class="step reveal">
+        <span>03</span>
+        <h3>Conecta</h3>
+        <p>Encuentra jugadores y organiza la partida.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="container">
+    <div class="cta-box reveal">
+      <div>
+        <span class="eyebrow">GAMVORAQ</span>
+        <h2>Tu siguiente partida puede empezar aquí.</h2>
+        <p>Conecta. Juega. Haz equipo.</p>
+      </div>
+
+      <a class="btn primary" href="#inicio">Volver al inicio</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <img src="assets/img/logo-gamvoraq.png" alt="">
+      <div>
+        <strong>GAMVORAQ</strong>
+        <span>Conecta. Juega. Haz equipo.</span>
+      </div>
+    </div>
+
+    <nav class="footer-links">
+      <a href="#inicio">Inicio</a>
+      <a href="#comunidades">Comunidades</a>
+      <a href="#funciones">Funciones</a>
+      <a href="#video">Video</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>

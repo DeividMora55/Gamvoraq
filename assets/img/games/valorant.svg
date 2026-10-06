@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+<defs>
+  <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#00A8FF"/><stop offset="100%" stop-color="#00A8FF"/></linearGradient>
+  <linearGradient id="g2" x1="0" y1="1" x2="1" y2="0"><stop offset="0%" stop-color="#00A8FF"/><stop offset="100%" stop-color="#00A8FF"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="8" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="100%" height="100%" fill="#050505"/>
+<circle cx="120" cy="90" r="120" fill="#00A8FF" opacity="0.22"/>
+<circle cx="690" cy="90" r="110" fill="#00A8FF" opacity="0.16"/>
+<circle cx="660" cy="360" r="140" fill="#00A8FF" opacity="0.10"/>
+<rect x="28" y="28" rx="28" ry="28" width="744" height="394" fill="none" stroke="url(#g1)" stroke-width="3" opacity="0.95" filter="url(#glow)"/>
+<path d="M60 315C170 220 245 355 345 275S535 175 740 258" fill="none" stroke="url(#g2)" stroke-width="7" stroke-linecap="round" opacity="0.75" filter="url(#glow)"/>
+<path d="M58 335C155 278 240 372 348 304S520 210 736 294" fill="none" stroke="#00A8FF" stroke-width="2.5" stroke-linecap="round" opacity="0.95"/>
+<text x="60" y="128" fill="#FFFFFF" font-family="Orbitron, Arial, sans-serif" font-size="54" font-weight="700">VALORANT</text>
+<text x="62" y="170" fill="#00A8FF" font-family="Rajdhani, Arial, sans-serif" font-size="24" font-weight="700">FPS TÁCTICO COMPETITIVO</text>
+<g transform="translate(62 252)">
+  <rect x="0" y="0" rx="18" ry="18" width="158" height="54" fill="rgba(0,0,0,0)" stroke="#00A8FF" stroke-width="2"/>
+  <text x="24" y="34" fill="#fff" font-family="Rajdhani, Arial, sans-serif" font-size="23" font-weight="700">COMUNIDAD</text>
+</g>
+<g transform="translate(560 70)" opacity="0.92">
+  <rect x="0" y="0" width="156" height="156" rx="28" fill="#050505" stroke="#00A8FF" stroke-width="2.4"/>
+  <circle cx="52" cy="78" r="14" fill="none" stroke="#00A8FF" stroke-width="8"/>
+  <circle cx="104" cy="78" r="14" fill="none" stroke="#00A8FF" stroke-width="8"/>
+  <rect x="32" y="60" width="92" height="36" rx="16" fill="none" stroke="#fff" stroke-width="6"/>
+  <rect x="46" y="42" width="18" height="8" rx="4" fill="#fff"/>
+  <rect x="92" y="42" width="18" height="8" rx="4" fill="#fff"/>
+</g>
+</svg>
